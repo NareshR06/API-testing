@@ -10,7 +10,7 @@ test('get the weather details', async ({ request }) => {
 test('get the booking details', async({request})=>{
 const response = await request.get('https://restful-booker.herokuapp.com/booking/47');
 const body = await response.json();
-//console.log(body);
+console.log(body);
 });
 
 test.only('post the booking details', async({request})=>{
