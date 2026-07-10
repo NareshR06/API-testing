@@ -37,5 +37,5 @@ const response = await request.post('https://restful-booker.herokuapp.com/bookin
     console.log('Successfully validated the firstname');
     console.log('Successfully pushed code to github');
     console.log('tester2 did changes');
-    console.log('test');
+    //console.log('test');
 });
